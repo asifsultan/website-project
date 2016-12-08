@@ -1,41 +1,185 @@
 body{
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
+    background-color: #bd0505;
     font-family: 'Oxygen', sans-serif;
 }
 #header-nav{
-    background-color: #fbe319;
+    background-color: #f2b704;
     border-radius: 0;
     border: 0;
+
 }
 
 #logo-img{
-    background: url('../images/restaurant-logo_large.png') no-repeat;
+    background: url('../images/logo_large.png') no-repeat;
     width: 150px;
-    height: 150px;
+    height: 132px;
     margin: 10px 15px 10px 0;
 }  
 
 .navbar-brand{
     padding-top: 25px;
 }
-.navvar-brand h1{
+.navbar-brand h1{
     font-family: 'Lora', serif;
-    color: #557c3e;
+    color: #101289;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 1px, 1px, 1px 222;
-    margin-botton: 0;
-    line-height: .75
+    text-shadow: 1px, 1px, 1px #222;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;    
 }
 
-.navbar-brand p{
-    color: #000;
+
+.navbar-brand p a{ /*location */
+    font-family: 'Aref Ruqaa', serif;
+    font-weight: bold;
+    color: #bd0505;
     text-transform: uppercase;
     font-size: .7em;
+    margin-top: 18px;
+    /*text-decoration: none;*/
+}
+
+.navbar-brand p a span{  Location icon
+    vertical-align: middle;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: #bd0505;
+    text-align: center;
+}
+
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+
+#nav-list a span{
+    font-size: 1.6em;
+}
+
+#phone{
+    margin-top: 5px;
+}
+
+#phone a { /*Phone Number*/
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{ /*We Deliver*/
+    color: #101289;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #bd0505;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top:-30px;
+}
+
+/*************Large devices only************/
+@media (min-width: 1200px){
+    .jumbotron{
+        background: url('../images/jumbotron_1200.jpg') no-repeat;
+        height: 675px;
+        box-shadow:0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+/*************Medium devices only************/
+@media(min-width: 992px) and (max-width: 1199px){
+   
+    #logo-img{
+        background: url('../images/logo_medium.png') no-repeat;
+        width: 75px;
+        height: 66px;
+        margin: 5px 5px 5px 0;
+    }
+    /*Home Page*/
+    .jumbotron{
+        background: url('../images/jumbotron_992.jpg') no-repeat;
+        height: 558px;
+        box-shadow:0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+    }
+}
+
+/*************Small devices only************/
+@media(min-width: 768) and (max-width: 991px){
+ 
+     .jumbotron{
+            background: url('../images/jumbotron_1200.jpg') no-repeat;
+            height: 675px;
+            box-shadow:0 0 50px #3f0c1f;
+            border: 2px solid #3f0c1f;
+        }
+
+}
+
+/*************Extra small devices only************/
+@media(max-width: 767px){
+
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand a:hover, .navbar-brand a:focus{
+        text-decoration: none;    
+    }
+
+    .navbar-brand p a{ /*location */
+        font-size: .6em;
+        margin-top: 12px;
+    }
+
+    .navbar-brand p a span{ /* Location icon*/
+        height: 20px;
+    }
+
+    #collapsable-nav a{/* Collapse nav menu glyph*/
+        font-size: 1.0em;
+    }
+
+    #collapsable-nav a span{/* Collapse nav menu glyph*/
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #bd0505;      
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+
 }

@@ -4,36 +4,91 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>National Hardware Shop</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
   </head>
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class=container>
+      <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left">
+          <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img" alt="logo image"></div>
           </a>
 
 
           <div class="navbar-brand">
             <a href="index.html">
-              <h1>David Chu's China Bistro</h1>
+              <h1>National Hardware Shop</h1>
             </a>
             <p>
-              <img src="images/star-k-logo.png" alt="Koshercertification">
-              <span>Kosher Certificate</span>
+              <!-- <img src="images/star-k-logo.png" alt="Kosher certification"> -->
+              <a href="https://www.google.com/maps/place/National+Hardware/@-32.333506,28.146283,15z/data=!4m5!3m4!1s0x0:0x36d11370b1223af3!8m2!3d-32.333506!4d28.146283" target="_blank">
+              <span class="glyphicon glyphicon-map-marker"></span> <!-- Location Icon -->
+              3-blyth street, Butterworth
+              </a> 
             </p>
           </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-fire"></span>
+                <br class="hidden-xs"> Menu
+              </a>
+            </li>
+             <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span>
+                <br class="hidden-xs"> About
+              </a>
+            </li>
+             <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span>
+                <br class="hidden-xs"> Awards
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="Cell:+27-84-377-2786">
+                <span>Cell: +27 84 377 2786</span>
+              </a>
+              <div>* We Deliver</div>
+            </li>
+      
+          </ul><!--  #nav-list -->
+        </div><!--   .collapse .navbar-collapse -->
       </div>
-      </nav>
+     </nav>
 
   </header>
+  <div id="call-btn" class="visible-xs">
+    <a href="Cell:+27-84-377-2786">
+      <span class="glyphicon glyphicon-earphone"></span>
+      +27-84-377-2786
+    </a>
+  </div>  
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+    <div id="main-content" class="container">
+      <div class="jumbotron">
+        <img src="images/jumbotron_768.jpg" alt="Picture of resturant" class="imge-responsive visible-xs">
+      </div>
+    </div>
+  
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
