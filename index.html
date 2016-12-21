@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
+   
   </head>
 <body>
   <header>
@@ -20,22 +20,17 @@
             <div id="logo-img" alt="logo image"></div>
           </a>
 
-
           <div class="navbar-brand">
             <a href="index.html">
-              <h1>National Hardware Shop</h1>
+              <h1>Chinese Food and Drinks</h1>
             </a>
-            <p>
-              <!-- <img src="images/star-k-logo.png" alt="Kosher certification"> -->
-              <a href="https://www.google.com/maps/place/National+Hardware/@-32.333506,28.146283,15z/data=!4m5!3m4!1s0x0:0x36d11370b1223af3!8m2!3d-32.333506!4d28.146283" target="_blank">
-              <span class="glyphicon glyphicon-map-marker"></span> <!-- Location Icon -->
-              3-blyth street, Butterworth
-              </a> 
+            <p class="glyphicon glyphicon-certificate">
+             Food Justice Certified
             </p>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle Navigation</span>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -44,8 +39,9 @@
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
+          
             <li>
-              <a href="menu-categories.html">
+              <a href="menu.html">
                 <span class="glyphicon glyphicon-fire"></span>
                 <br class="hidden-xs"> Menu
               </a>
@@ -63,32 +59,76 @@
               </a>
             </li>
             <li id="phone" class="hidden-xs">
-              <a href="Cell:+27-84-377-2786">
-                <span>Cell: +27 84 377 2786</span>
+              <a href="+933224444010">
+                <span>+92 322 4444 010</span>
               </a>
               <div>* We Deliver</div>
             </li>
-      
           </ul><!--  #nav-list -->
         </div><!--   .collapse .navbar-collapse -->
-      </div>
+      </div><!-- navbar .container -->
      </nav>
-
   </header>
+
   <div id="call-btn" class="visible-xs">
-    <a href="Cell:+27-84-377-2786">
+    <a class="btn" href="+923224444010">
       <span class="glyphicon glyphicon-earphone"></span>
-      +27-84-377-2786
+      +92-322-4444-010
     </a>
   </div>  
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
-    <div id="main-content" class="container">
-      <div class="jumbotron">
-        <img src="images/jumbotron_768.jpg" alt="Picture of resturant" class="imge-responsive visible-xs">
-      </div>
+   <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
     </div>
-  
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12 ">
+        <a href="menu.html"><div id="menu-tile" class="img-responsive"><span>Menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 ">
+        <a href="single-category.html"><div id="specials-tile" class="img-responsive "><span>Special</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12 ">
+        <a href="https://goo.gl/maps/V88XFmKDjh22 target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13484.775268089714!2d28.146283!3d-32.333506!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36d11370b1223af3!2sNational+Hardware!5e0!3m2!1sen!2s!4v1481198945910" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div> <!-- End of the #home-titles -->
+  </div> <!-- End of #main-content  -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+         <section id="hours" class="col-sm-4">
+          <span>Hours: </span><br>
+          Mon-Fri: 7am - 12am<br>
+          Sat: 7am - 2am<br>
+          Sunday Closed
+          <hr class="visible-xs">         
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address: </span><br>
+          Shop# 3 blyth Street<br>
+          Butterwoth, Eastern Cape<br>
+          <p>* Delivery areas with 3-4 miles, with minimun order of 
+          $5, plus $2 charges for all deliveries
+          </p> 
+          <hr class="visible-xs">         
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best hardware shop in the town each and every household item is available in this shop!"</p>
+          <p>"Amazing blocks! Good service for delivery! Block can't get any better then this! If you want to buy anything you must visit their shop"</p>
+        </section>
+        </div>
+        <div class="text-center">&copy; Copyright National Hardware Shop 2016
+        </div>
+    </div>
+  </footer>
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
