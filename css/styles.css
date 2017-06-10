@@ -23,8 +23,8 @@ body{
 }
 .navbar-brand h1{ /*Shop title*/
     font-family: 'Lora', serif;
-    color: #b6151d;
-    font-size: 1.8em;
+    color: #0d6032;;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
@@ -64,6 +64,7 @@ body{
 
 #phone{
     margin-top: 5px;
+    
 }
 
 #phone a { /*Phone Number*/
@@ -72,7 +73,7 @@ body{
 }
 
 #phone div{ /*We Deliver*/
-    color: #b6151d;
+    color: #0d6032;
     text-align: right;
     padding-right: 15px;
 }
@@ -87,6 +88,10 @@ body{
     margin-top:-30px;
 }
 
+/*End Header*/
+
+/*
+*/
 .container .jumbotron{
     box-shadow: 0 0 50px #420000;
     border: 2px solid #420000;
@@ -127,6 +132,7 @@ body{
 }
         /*END HOME PAGE*/
 
+/*        Footer    */
 .panel-footer{
     background-color: #222;
     border-top: 0;
@@ -353,7 +359,7 @@ h3.menu-item-title{
         text-shadow: 1px 1px 1px #222;
         border: 2px solid #fff;
         background-color:   #f2f40b;
-        color: #420000;
+        color: #0d6032;
       }
       #xs-deliver {
         margin-top: 5px;
@@ -451,7 +457,7 @@ h3.menu-item-title{
         text-shadow: 1px 1px 1px #222;
         border: 2px solid #fff;
         background-color:   #f2f40b;
-        color: #420000;
+        color: #0d6032;
       }
       #xs-deliver {
         margin-top: 5px;
