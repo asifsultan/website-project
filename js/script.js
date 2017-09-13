@@ -92,7 +92,7 @@ dc.loadMenuCategories = function () {
 
 
 // Load the menu items view
-// categoryShort os a short-name for category
+// categoryShort is a short-name for category
 dc.loadMenuItems = function (categoryShort) {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
