@@ -6,7 +6,7 @@ body{
 }
 
 #header-nav{
-    background-color:   #f2f40b;
+    background-color:  #f2f40b;
     border-radius: 0;
     border: 0;
 }
@@ -16,7 +16,7 @@ body{
     width: 150px;
     height: 132px;
     margin: 10px 15px 10px 0;
-}  
+}
 
 .navbar-brand{
     padding-top: 25px;
@@ -33,7 +33,7 @@ body{
     line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .navbar-brand p{  /*Address of shop*/
@@ -64,7 +64,7 @@ body{
 
 #phone{
     margin-top: 5px;
-    
+
 }
 
 #phone a { /*Phone Number*/
@@ -137,7 +137,7 @@ body{
     background-color: #222;
     border-top: 0;
     border-bottom: 0;
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
     padding-top: 35px;
     margin-top: 30px;
 }
@@ -170,7 +170,7 @@ body{
 
 /*MENU ITEMS*/
 .category-tile{
-  position: relative;  
+  position: relative;
   border: 2px solid #420000;
   height: 200px;
   width: 200px;
@@ -293,14 +293,14 @@ h3.menu-item-title{
     height: 432px;
   }
 
-    .navbar-brand p {  
+    .navbar-brand p {
         font-size: .8em;
-    } 
+    }
 
     #nav-list a span{
         font-size: 1.3em;
     }
- 
+
 
   #menu-tile span, #specials-tile span, #map-tile span {
       font-size: 1.2em;
@@ -321,13 +321,13 @@ h3.menu-item-title{
         padding-top: 10px;
         font-size: 5vw; /* 1vw = 1% of viewport width */
   }
- 
-  .navbar-brand p{ 
+
+  .navbar-brand p{
         font-size: .6em;
         margin-top: 10px;
   }
 
-  #collapsable-nav a{   
+  #collapsable-nav a{
         font-size: 1.2em;
   }
 
@@ -367,7 +367,7 @@ h3.menu-item-title{
         letter-spacing: .1em;
         text-transform: uppercase;
       }
-  
+
   /* End Header */
 
       /*Footer*/
@@ -377,14 +377,14 @@ h3.menu-item-title{
     }
 
     .panel-footer section:nth-child(3){
-        margin-bottom: 0; 
+        margin-bottom: 0;
     }
 
     .panel-footer section hr{
         width: 50%;
     }
       .menu-item-photo{
-        margin-right: auto;   
+        margin-right: auto;
     }
 
     .menu-item-tile .menu-item-price{
@@ -395,7 +395,7 @@ h3.menu-item-title{
         text-align: center;
     }
 
-  
+
 }
 
 
@@ -424,16 +424,16 @@ h3.menu-item-title{
         font-size: 1em;
     }
   /* End Header */
-    .navbar-brand p{ 
+    .navbar-brand p{
         font-size: .6.3em;
-       
+
     }
 
     #menu-tile span, #specials-tile span, #map-tile span {
         font-size: 1.2em;
         opacity: .8;
   }
-  
+
   /* Home page */
     #menu-tile, #specials-tile {
         width: 280px;
@@ -467,7 +467,7 @@ h3.menu-item-title{
       }
 
     .menu-item-photo{
-        margin-right: auto;   
+        margin-right: auto;
     }
 
     .menu-item-tile .menu-item-price{
@@ -479,4 +479,3 @@ h3.menu-item-title{
     }
 
 }
-
